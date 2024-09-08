@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Treino Guiado</title>
+</head>
+<body>
+    <header>        
+        <h1>Treino Guiado</h1>
+    </header>
+    <main>
+        <section>
+            <form id="form-pesquisa" onsubmit="event.preventDefault(); pesquisar();">
+                <input type="text" placeholder="Pesquise pelo exercício" id="campo-pesquisa">
+                <button type="submit">Pesquisar</button>
+            </form>
+        </section>
+
+        <section id="resultados-pesquisa"></section>
+    </main>
+
+    <footer>
+        <p>2024 - Treino Guiado. Todos os direitos reservados.</p>
+        <p>Entre em contato pelo email: dariu.pk@gmail.com</p>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
